@@ -36,7 +36,11 @@ def get_conf(url):
 def get_git_conf(url):
     response = requests.get(url)
     res = response.json()
-    res_json = json.loads("".join(res["payload"]["blob"]["rawLines"]))
+    json_str = ""
+    for line in res["payload"]["blob"]["rawLines"]:
+        if not line.strip().startswith("//"):
+            json_str += line
+    res_json = json.loads(json_str)
     remove_keys(res_json)
     res = json.dumps(res_json, indent=4, ensure_ascii=False)
     return res

@@ -1,12 +1,14 @@
 {
-    "spider": "http://我不是.肥猫.love:63/Jar/pandaQ230803.jar;md5;F3186F44835CD46EF458744D797BD9CC",
+    "spider": "http://我不是.肥猫.love:63/Jar/pandaQ230823.jar;md5;094B4D3625D42893F683CC2E95311153",
     "sites": [
         {
-            "key": "js豆瓣",
+            "key": "豆瓣",
             "name": "🐼┃豆瓣┃新微信公众号：肥猫宝贝",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
-            "ext": "http://alist.xn--z7x900a.love:63/豆瓣.js"
+            "api": "csp_DouDou",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0
         },
         {
             "key": "直播转点播",
@@ -38,7 +40,7 @@
             "key": "荐片",
             "name": "🎬┃荐片┃影视",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
             "ext": "http://alist.xn--z7x900a.love:63/荐片.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -48,7 +50,7 @@
             "key": "磁力熊",
             "name": "🐻┃熊熊┃磁力",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
             "ext": "http://alist.xn--z7x900a.love:63/磁力熊.js",
             "searchable": 1,
             "quickSearch": 1,
@@ -59,37 +61,7 @@
             "name": "🦢┃素白┃影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "http://我不是.肥猫.love:63/json/素白.json"
-        },
-        {
-            "key": "夜夜",
-            "name": "🦉┃夜夜┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "站名": "夜光影视",
-                "主页url": "https://www.ygpvp.com/",
-                "分类url": "https://www.ygpvp.com/vodshow/{cateId}--------{catePg}---{year}.html;;v",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-                "图片": "data-original=\"&&\"",
-                "链接": "href=\"&&\"",
-                "搜索模式": "1",
-                "搜索url": "https://www.ygpvp.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=500",
-                "搜索二次截取": "\"list\":[&&]",
-                "搜索数组": "{&&}",
-                "搜索标题": "\"name\":\"&&\"",
-                "搜索图片": "\"pic\":\"&&\"",
-                "搜索链接": "https://www.ygpvp.com/voddetail/+\"id\":&&,+html",
-                "跳转播放链接": "https://bfq.ygpvp.com/ygbfq1/?url=+vod_class*url\":\"&&\"",
-                "二次跳转播放链接": "https://bfq.ygpvp.com/ygbfq1/API.php;post;url=+\"url\"*\"&&\"+&ac=jx",
-                "三次跳转播放链接": "\"url\"*\"&&\"",
-                "年代": "年份：&&</a>",
-                "地区": "地区：&&</a>",
-                "类型": "类型：&&</a>",
-                "导演": "导演：&&</p>",
-                "主演": "主演：&&</p>",
-                "简介": "<p>&&</p>"
-            }
+            "ext": "http://我不是.肥猫.love:63/json/素白白.json"
         },
         {
             "key": "虎虎",
@@ -97,17 +69,6 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "http://我不是.肥猫.love:63/json/虎虎.json"
-        },
-        {
-            "key": "yyds",
-            "name": "🔥┃杳音┃影院",
-            "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "ext": "http://alist.xn--z7x900a.love:63/yyds.js"
         },
         {
             "key": "YQK_spider",
@@ -156,23 +117,6 @@
             "ext": "https://cz01.me/"
         },
         {
-            "key": "双十",
-            "name": "💖┃双十┃影视",
-            "type": 3,
-            "api": "csp_Dy1010",
-            "playerType": 1,
-            "ext": "https://www.1010dy3.com/"
-        },
-        {
-            "key": "csp_Bttoo",
-            "name": "🔺┃Btto┃影视",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_FanYY",
             "name": "🧸┃玩偶┃影视",
             "type": 3,
@@ -187,6 +131,17 @@
             "name": "👻┃明明┃影视",
             "type": 3,
             "api": "csp_AppMr",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "奇奇",
+            "name": "🐭┃奇奇┃影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "playerType": "2",
+            "ext": "https://ttsp.live/api.php/app/",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -215,21 +170,22 @@
             "key": "飞速",
             "name": "🚄┃影探┃影视",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "api": "csp_YTVIP",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://alist.xn--z7x900a.love:63/V2影探.js"
+            "ext": "vvvwvwvvwwvwvvvwvvwwvvvwwwwvvvvwvvvwwvvvwwwvvwvwvvwvvvvw.lyyytv.cn"
         },
         {
-            "key": "小艺",
-            "name": "🥩┃小艺┃影视",
+            "key": "辣辣",
+            "name": "🌶️┃辣辣┃影视",
             "type": 3,
-            "api": "csp_AppYsV2",
+            "api": "csp_AppYs",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://lg.tvcms.top/api.php/app/"
+            "ext": "http://www.miniku.cc/xgapp.php/v2/",
+            "jar": "http://我不是.肥猫.love:63/Jar/5.jar;md5;c570b052645834a1109b54421c1552f9"
         },
         {
             "key": "蘑菇",
@@ -250,37 +206,7 @@
             "quickSearch": 1,
             "filterable": 0,
             "playerType": 2,
-            "ext": "https://tv.libvio.cc"
-        },
-        {
-            "key": "Lezhu",
-            "name": "🐷┃乐猪┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://我不是.肥猫.love:63/json/乐猪.json"
-        },
-        {
-            "key": "csp_Lgyy",
-            "name": "🌀┃蓝光┃影视",
-            "type": 3,
-            "api": "csp_Lgyy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.lgyy.vip"
-        },
-        {
-            "key": "csp_fant",
-            "name": "🍙┃饭团┃影视",
-            "type": 3,
-            "api": "csp_Fantuan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 1
+            "ext": "https://www.libvio.fun/"
         },
         {
             "key": "csp_Auete",
@@ -305,7 +231,7 @@
             "key": "drpy_js_奇珍异兽",
             "name": "🐨┃爱奇┃官源",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
             "ext": "http://alist.xn--z7x900a.love:63/爱奇.js"
         },
         {
@@ -445,7 +371,6 @@
             "api": "csp_Bili",
             "searchable": 1,
             "quickSearch": 0,
-            "filterable": 1,
             "ext": "http://我不是.肥猫.love:63/json/bili.json"
         },
         {
@@ -455,7 +380,6 @@
             "api": "csp_Bili",
             "searchable": 1,
             "quickSearch": 0,
-            "filterable": 1,
             "ext": "http://我不是.肥猫.love:63/json/戏曲.json"
         },
         {
@@ -465,14 +389,13 @@
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1,
             "ext": "http://我不是.肥猫.love:63/json/ych.json"
         },
         {
             "key": "js虎牙",
             "name": "🐅┃虎牙┃直播",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
@@ -502,7 +425,7 @@
             "key": "dr_88看球",
             "name": "🏀┃八八┃看球",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
@@ -512,7 +435,7 @@
             "key": "drpy_js_JRKAN直播",
             "name": "🏀┃JRS┃看球",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
             "ext": "http://alist.xn--z7x900a.love:63/JRKAN直播.js"
         },
         {
@@ -529,14 +452,14 @@
             "key": "drpy_js_有声小说吧",
             "name": "📻┃有声┃小说",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
             "ext": "http://alist.xn--z7x900a.love:63/有声小说吧.js"
         },
         {
             "key": "drpy_js_蜻蜓FM",
             "name": "📻┃蜻蜓┃收音",
             "type": 3,
-            "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+            "api": "http://alist.xn--z7x900a.love:63/ddrpy2.m.js",
             "ext": "http://alist.xn--z7x900a.love:63/蜻蜓FM.js"
         },
         {
@@ -624,7 +547,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "playerType": 1,
-            "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
+            "ext": "http://127.0.0.1:9978/file/fatcat/token.txt+4k|auto|fhd"
         },
         {
             "key": "ext_live_protocol",
@@ -962,5 +885,5 @@
         "iqiyi.hbuioo.com",
         "vip.ffzyad.com"
     ],
-    "wallpaper": "http://我不是.肥猫.love:63/pic/feimao.php"
+    "wallpaper": "http://我不是.肥猫.love:63/ppic/feimao.php"
 }
