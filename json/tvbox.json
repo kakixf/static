@@ -21,7 +21,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://tvfan.xxooo.cf/"
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://23.251.37.83:7788/"
         },
         {
             "key": "csp_Kunyu77",
@@ -31,16 +31,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_fantuan",
-            "name": "饭团",
-            "type": 3,
-            "api": "csp_Fantuan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.fantuan3.com"
         },
         {
             "key": "csp_AppMr",
@@ -83,6 +73,17 @@
             "ext": "https://api123.adys.app/xgapp.php/v3/"
         },
         {
+            "key": "率率",
+            "name": "率率",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "http://caiji.ghlyys.com/yumi/api.php/app/"
+        },
+        {
             "key": "探探",
             "name": "探探",
             "type": 3,
@@ -91,7 +92,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "vvvwvwvvwwvwvvvwvvwwvvvwwwwvvvvwvvvwwvvvwwwvvwvwvvwvvvvw.lyyytv.cn"
+            "ext": "vip.lyyytv.cn"
         },
         {
             "key": "陌陌",
@@ -101,7 +102,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "http://guan.yy365.vip/api.php/app/"
+            "ext": "https://www.kuin.one/api.php/app/"
         },
         {
             "key": "奇奇",
@@ -111,7 +112,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://ttsp.live/api.php/app/"
+            "ext": "http://mp4.ghlyys.com/api.php/app"
         },
         {
             "key": "哈喽",
@@ -122,26 +123,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "http://www.miniku.cc/xgapp.php/v1/"
-        },
-        {
-            "key": "酷酷",
-            "name": "酷酷",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://ys.realdou.cn:2683/api.php/app/"
-        },
-        {
-            "key": "csp_ZhuanX",
-            "name": "专线",
-            "type": 3,
-            "api": "csp_ZhuanX",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://cms.maoyingshi.cc/api.php/app/"
         },
         {
             "key": "csp_Zxzj",
@@ -227,7 +208,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.ysgc.vip"
+            "ext": "https://www.ysgc1.cc/"
+        },
+        {
+            "key": "csp_Xinsj",
+            "name": "新视觉",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.6080yy3.com/"
         },
         {
             "key": "csp_Cokemv",
