@@ -19,9 +19,16 @@ def get_conf(url):
     response = requests.get(url, headers=headers)
     json_text = response.content.decode("utf-8")
     res = ""
-    for line in json_text.split("\r\n"):
-        if not line.strip().startswith("//"):
+    skip_line = False
+    for line in json_text.split("\n"):
+        temp_line = line.strip()
+        if temp_line.startswith("/*"):
+            skip_line = True
+        if not temp_line.startswith("//") and not skip_line:
             res += line.strip()
+        if temp_line.endswith("*/"):
+            skip_line = False
+
     try:
         res_json = json.loads(res)
         remove_keys(res_json)
