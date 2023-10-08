@@ -21,7 +21,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://23.251.37.83:7788/"
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
         {
             "key": "csp_Kunyu77",
@@ -42,17 +42,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_YQKAPP",
-            "name": "一起看",
-            "type": 3,
-            "api": "csp_YQKAPP",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://api-aws.11ty.top"
-        },
-        {
             "key": "csp_CZSPP",
             "name": "厂长",
             "type": 3,
@@ -63,6 +52,44 @@
             "filterable": 1
         },
         {
+            "key": "率率",
+            "name": "率率",
+            "type": 1,
+            "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "categories": [
+                "国产剧",
+                "韩剧",
+                "日剧",
+                "港剧",
+                "台剧",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "战争片",
+                "恐怖片",
+                "剧情片",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "大陆综艺",
+                "日韩综艺"
+            ]
+        },
+        {
+            "key": "csp_Xinsj",
+            "name": "新视觉",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.6080yy3.com/"
+        },
+        {
             "key": "迪迪",
             "name": "迪迪",
             "api": "csp_AppYsV2",
@@ -70,18 +97,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://api123.adys.app/xgapp.php/v3/"
-        },
-        {
-            "key": "率率",
-            "name": "率率",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://caiji.ghlyys.com/yumi/api.php/app/"
+            "ext": "http://22222.yiyingys.asia/api.php/app/"
         },
         {
             "key": "探探",
@@ -93,26 +109,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "vip.lyyytv.cn"
-        },
-        {
-            "key": "陌陌",
-            "name": "陌陌",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.kuin.one/api.php/app/"
-        },
-        {
-            "key": "奇奇",
-            "name": "奇奇",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://mp4.ghlyys.com/api.php/app"
         },
         {
             "key": "哈喽",
@@ -172,6 +168,15 @@
             "ext": "https://www.libvio.fun/"
         },
         {
+            "key": "csp_Bttoo",
+            "name": "2BT",
+            "type": 3,
+            "api": "csp_Bttwoo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_Nmys",
             "name": "农民",
             "type": 3,
@@ -209,16 +214,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.ysgc1.cc/"
-        },
-        {
-            "key": "csp_Xinsj",
-            "name": "新视觉",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.6080yy3.com/"
         },
         {
             "key": "csp_Cokemv",
