@@ -1,13 +1,13 @@
 source_list = [
     {
-        "name": "meotv",
-        "url": "http://miaotvs.cn/meow",
-        "allow_redirect": True,
-        "desc": "猫影视tv",
-        "from": "api"
-    }, {
+    #     "name": "meotv",
+    #     "url": "http://miaotvs.cn/meow",
+    #     "allow_redirect": True,
+    #     "desc": "猫影视tv",
+    #     "from": "api"
+    # }, {
         "name": "feimao",
-        "url": "http://我不是.肥猫.love:63",
+        "url": "http://肥猫.live",
         "allow_redirect": False,
         "desc": "肥猫",
         "from": "api"
